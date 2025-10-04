@@ -1,0 +1,46 @@
+-----------------------------------------
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+--------------------------------------------
+
+$ git branch
+  branch-repo
+* main
+
+-----------------------------------------------
+$ git log
+commit 339746795ac6334697d469d4b48d8ea82926b93e (HEAD -> main, origin/main, origin/HEAD)
+Author: Oriado <dasharom5555@gmail.com>
+Date:   Sat Oct 4 10:16:30 2025 +0300
+
+    Create new_file.html
+
+commit dab891ade4bf8548b706592c0d6386efdda7440f
+Merge: 071778f 29cf0f6
+Author: Oriado <dasharom5555@gmail.com>
+Date:   Sat Oct 4 10:13:10 2025 +0300
+
+    Вирішення конфліктів під час злиття гілок
+
+commit 071778f72c26279a0a78e71b2903f42af050c999
+Author: Oriado <dasharom5555@gmail.com>
+Date:   Sat Oct 4 10:08:02 2025 +0300
+
+    Додано зміни у файлі на головній гілці
+
+commit 29cf0f6514f8bc27d8545467c25b070cfebb0053 (origin/branch-repo, branch-repo)
+Author: Oriado <dasharom5555@gmail.com>
+
+---------------------------------------------
+
+$ git log --merges
+commit dab891ade4bf8548b706592c0d6386efdda7440f
+Merge: 071778f 29cf0f6
+Author: Oriado <dasharom5555@gmail.com>
+Date:   Sat Oct 4 10:13:10 2025 +0300
+
+    Вирішення конфліктів під час злиття гілок
